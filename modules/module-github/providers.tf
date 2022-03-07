@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "github" {
-  token = "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"
+  token = ""
   owner = "@vinhlee95"
 }
 

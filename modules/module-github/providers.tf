@@ -7,8 +7,13 @@ terraform {
   }
 }
 
+variable "github_token" {
+  description = "the GitHub personal access token"
+  type = string
+}
+
 provider "github" {
-  token = ""
+  token = var.github_token
   owner = "@vinhlee95"
 }
 
